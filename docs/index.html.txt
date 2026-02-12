@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Limelight Logistics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; font-family: 'Segoe UI', Arial, sans-serif; line-height:1.6; color:#333; }
+
+    /* Sticky Navigation */
+    nav {
+      background:#2c3e50;
+      position:sticky;
+      top:0;
+      z-index:1000;
+    }
+    nav ul {
+      list-style:none;
+      margin:0;
+      padding:0;
+      display:flex;
+      justify-content:center;
+    }
+    nav li { margin:0 15px; }
+    nav a {
+      color:white;
+      text-decoration:none;
+      font-weight:bold;
+      padding:8px 12px;
+      border-radius:4px;
+    }
+    nav a.active {
+      background:#f39c12;
+      color:white;
+    }
+
+    /* Hamburger icon */
+    .menu-icon {
+      display:none;
+      cursor:pointer;
+      padding:15px;
+      color:white;
+      font-size:1.5em;
+      text-align:right;
+    }
+
+    @media (max-width:768px) {
+      nav ul {
+        flex-direction:column;
+        display:none;
+        background:#2c3e50;
+      }
+      nav ul.showing { display:flex; }
+      .menu-icon { display:block; }
+      nav li { margin:10px 0; text-align:center; }
+    }
+
+    /* Hero Section */
+    header {
+      background:linear-gradient(135deg, #1abc9c, #16a085);
+      color:white;
+      padding:80px 20px;
+      text-align:center;
+    }
+    header h1 { margin:0; font-size:3em; }
+    header p { font-size:1.2em; margin-top:15px; }
+    .cta-btn {
+      background:#f39c12;
+      color:white;
+      padding:12px 25px;
+      border-radius:5px;
+      text-decoration:none;
+      font-weight:bold;
+      display:inline-block;
+      margin-top:20px;
+    }
+
+    /* Sections */
+    section { padding:60px 20px; max-width:1000px; margin:auto; }
+    section h2 { color:#2c3e50; margin-bottom:20px; }
+    ul { list-style:none; padding:0; }
+    ul li { background:#ecf0f1; margin:10px 0; padding:15px; border-radius:5px; }
+
+    /* Footer */
+    footer {
+      background:#2c3e50;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+    /* Smooth Scroll */
+    html { scroll-behavior:smooth; }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <ul id="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="booking.html">Booking</a></li>
+      <li><a href="tracking.html">Tracking</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Limelight Logistics</h1>
+    <p>Streamlining supply chain operations with clarity and efficiency</p>
+    <a href="#features" class="cta-btn">Get Started</a>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2>Features</h2>
+    <ul>
+      <li>Real-time shipment tracking</li>
+      <li>Route optimization</li>
+      <li>Inventory synchronization</li>
+      <li>Analytics dashboard</li>
+    </ul>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About</h2>
+    <p>Limelight Logistics is an open-source platform designed to simplify logistics management. It empowers businesses with tools to track shipments, optimize routes, and gain actionable insights through analytics.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Contribute or reach out on <a href="https://github.com/your-username/limelight-logistics">GitHub</a>.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Limelight Logistics</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav-links").classList.toggle("showing");
+    }
+  </script>
+</body>
+</html>
+

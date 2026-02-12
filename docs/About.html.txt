@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Limelight Logistics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <nav> ... </nav>
+
+  <header>
+    <h1>About Us</h1>
+    <p>Delivering trust, speed, and transparency</p>
+  </header>
+
+  <section>
+    <h2>Our Story</h2>
+    <p>Founded in Ghana, Limelight Logistics was created to simplify transport and empower businesses with reliable delivery solutions.</p>
+    <h2>Mission & Vision</h2>
+    <p>Our mission is to make logistics stress-free. Our vision is to connect every business and customer with seamless transport services.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Limelight Logistics</p>
+  </footer>
+</body>
+</html>

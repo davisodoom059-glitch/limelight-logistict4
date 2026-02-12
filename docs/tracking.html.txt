@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tracking - Limelight Logistics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <nav> ... </nav>
+
+  <header>
+    <h1>Track Your Shipment</h1>
+    <p>Stay updated on your delivery status</p>
+  </header>
+
+  <section>
+    <input type="text" placeholder="Enter Tracking ID">
+    <button>Track</button>
+    <p>Status updates will appear here.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Limelight Logistics</p>
+  </footer>
+</body>
+</html>

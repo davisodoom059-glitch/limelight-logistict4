@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Limelight Logistics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <nav> ... </nav>
+
+  <header>
+    <h1>Contact Us</h1>
+    <p>We’re here to help</p>
+  </header>
+
+  <section>
+    <p><strong>Phone:</strong> +233 59 576 4550</p>
+    <p><strong>Email:</strong> info@limelightlogistics.com</p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/233595764550">Chat Now</a></p>
+    <p><strong>Visit Us:</strong> [Google Maps Embed]</p>
+    <form>
+      <label>Your Name:</label><input type="text"><br>
+      <label>Your Email:</label><input type="email"><br>
+      <label>Message:</label><textarea></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Limelight Logistics</p>
+  </footer>
+</body>
+</html>
